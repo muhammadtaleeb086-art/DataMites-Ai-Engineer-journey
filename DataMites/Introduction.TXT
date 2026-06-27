@@ -1,0 +1,25 @@
+# Ai engineer Course
+
+**Data Analyst**
+A Data Analyst collects, cleans, and analyzes data to find useful insights and present them through reports and visualizations. Their work helps organizations make informed decisions.
+
+**Data Science**
+Data Science is the field of using data, statistics, and programming to discover patterns, solve problems, and make predictions that support better decision-making.
+
+**Business Analysts** 
+A Business Analyst studies business processes and requirements, identifies problems, and recommends solutions that help organizations improve their performance and achieve their goals.
+
+**Machine Learning (ML)**
+Machine Learning is a branch of Artificial Intelligence that enables computers to learn from data and make predictions or decisions without being explicitly programmed for every task.
+
+**Generative AI (GenAI)**
+Generative AI is a type of Artificial Intelligence that can create new content such as text, images, videos, music, and code by learning patterns from existing data.
+
+**Agent AI**
+Agent AI refers to intelligent systems that can understand goals, make decisions, use tools, and perform tasks autonomously with minimal human intervention.
+
+***MultiAi Agent ***
+A multi-agent agentic system is a collection of AI agents that can independently perceive information, make decisions, take actions, communicate with one another, and coordinate their efforts to solve complex tasks. 
+
+*** PYTHON ***
+Python is high level language .python  used in Testing development ,data Analyis ,machine learning model building genAI and multiAi agents. Python run on any platform and is free to use.
