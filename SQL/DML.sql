@@ -198,10 +198,78 @@ from orders where city in (
      group by city having avg(sales)>=1300
      );
 
-
-
 -- to understand the having method 
 select city , sum(sales) as citywise_totalsales from orders group by city having sum(sales)>=70000;
+
+
+## JOINS
+## outer Join 
+-- left , right , full outer join
+
+## Inner Join 
+## Self Join
+## cross / cartesian 
+
+## JOINS
+# lEFT JOIN
+CREATE DATABASE dominos;
+
+select *
+from orders
+left join customers on orders.customer_id=customers.customer_id;
+
+select customers.customer_name , orders.price
+from orders
+left join customers on orders.customer_id=customers.customer_id;
+
+
+## Right join
+select customers.customer_name , orders.price
+from orders
+right join customers on orders.customer_id=customers.customer_id;
+
+## Inner join
+select *
+from orders
+inner join customers on orders.customer_id=customers.customer_id;
+
+## Cross Join
+create table team1(
+p_id varchar(255),
+p_name varchar(255)
+);
+create table team2(
+p_id varchar(255),
+p_name varchar(255)
+);
+
+insert into team1 values
+("101","A"),
+("102","B"),
+("103","C");
+
+insert into team2 values
+("1","Alden"),
+("2","Rohit"),
+("3","Kaif");
+
+select * from team1 cross join team2;
+
+
+
+
+
+select *
+from orders
+Cross join customers on orders.customer_id=customers.customer_id;
+
+
+
+
+
+
+
+
 
 
 
